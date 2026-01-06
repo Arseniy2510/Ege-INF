@@ -37,3 +37,30 @@ for x in range(1324728,1400000):
     if len(D5) == 1 and min(D5) * max(D5) == x:
         print(x, max(D5))
 """
+
+# def p(x):
+#     if x == 1:
+#         return False
+#     for d in range(2, int(x ** 0.5) + 1):
+#         if x % d == 0:
+#             return False
+#     return True
+
+# a=20
+# b=16
+# while a != 0 and b != 0:
+#     if a >= b:
+#         a %= b
+#     else:
+#         b %= a
+# print(a+b)
+'''
+Алгоритм Евклида (Функция по поиску НОД):
+
+def gcd(a,b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+print(gcd(20,16))
+'''
+
